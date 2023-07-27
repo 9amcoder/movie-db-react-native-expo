@@ -4,7 +4,7 @@ const posterSize = 'w185';
 // Use the posterUrl to display the movie poster image
 export const posterUrl = `${baseUrl}${posterSize}`;
 
-const API_KEY = '6fb342b86f3dbe8bc8d7518452f7b5f5';
+const API_KEY = 'YOUR_API_KEY_HERE';
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 export const getPopularMovies = async () => {
